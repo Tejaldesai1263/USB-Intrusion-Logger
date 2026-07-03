@@ -1,0 +1,23 @@
+{
+  "poll_interval_seconds": 3,
+  "log_file": "usb_logs.csv",
+  "use_ai": false,
+  "whitelist": [
+    {
+      "vendor_id": "VID_0781",
+      "product_id": "557D",
+      "serial": "03022230020421210446"
+    }
+  ],
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "from": "your_sender_email@gmail.com",
+    "password": "your_16_char_app_password",
+    "to": "testmailid1263@gmail.com"
+  },
+  "alarm": {
+    "enabled": true
+  }
+}
